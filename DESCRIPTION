@@ -1,16 +1,17 @@
-Package: wuyh
 Type: Package
+Package: wuyh
 Title: What the Package Does (Title Case)
-Version: 0.2.0
+Version: 0.1.0
 Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
+Imports: 
+    M3Drop,
+    Seurat
 Encoding: UTF-8
 LazyData: true
-Imports: 
-    HighlyRegionalGenes (>= 0.2.0)
 RoxygenNote: 7.0.2
-Remotes:  
-    JulieBaker1/HighlyRegionalGenes
+Suggests:
+    RTCGAToolbox
